@@ -14,8 +14,8 @@ const aboutUsSection=document.getElementById('aboutUsSection');
 const profileSection=document.getElementById('profileSection');
 
 // THIS WILL BE THE DEFAULT BEHAVIOUR I.E WHEN THE USER OPENS THE WESBITE
-homeSection.style.display="none";
-notificationsSection.style.display="flex";
+homeSection.style.display="flex";
+notificationsSection.style.display="none";
 noticeBoardSection.style.display="none";
 aboutUsSection.style.display="none";
 profileSection.style.display="none";
