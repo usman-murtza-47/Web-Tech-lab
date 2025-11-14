@@ -8,37 +8,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="app.css">
 
-  <title>GCET HOME PAGE</title>
+  <title>GCET WEB </title>
 </head>
 <body>
   <div class="container">
     <nav class="navbar1">
-      <div>
-        <h5>Controller of Examinations</h5>
-        <p>Government College of Engineering & Technology, Jammu</p>
+      <div class="minicontainer1">
+        <img style="max-width: 7rem; width: 100%;" src="https://coe.gcetj.ac.in/assets/img/gcetlogo.png" alt="">
+        <div style="display: flex; flex-direction: column; justify-content: center;">
+          <h5 style="font-size: 2.048rem;">Controller of Examinations</h5>
+          <p style="font-size: 1.28rem;">Government College of Engineering & Technology, Jammu</p>
+          <p style="font-size: 0.8rem;">(AUTONOMOUS COLLEGE)</p>
+        </div>
       </div>
-      <a class="login-btn" href="login.html">Login</a>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <a class="login-btn" href="login.html">Login</a>
+      </div>
     </nav>
     <section class="section-container">
       <nav class="navbar2">
         <button id="home" class="nav-button">
-          <img src="" alt="">
+          <img class="nav-svg" src="SVGs/home-outline.svg" alt="">
           <p>Home</p>
         </button>
         <button id="notifications" class="nav-button">
-          <img src="" alt="">
+          <img class="nav-svg" src="SVGs/notifications-outline.svg" alt="">
           <p>Notifications</p>
         </button>
         <button id="notice" class="nav-button">
-          <img src="" alt="">
-          <p>Notice Board</p>
+          <img class="nav-svg" src="SVGs/images-outline.svg" alt="">
+          <p>Events</p>
         </button>
         <button id="aboutus" class="nav-button">
-          <img src="" alt="">
+          <img class="nav-svg" src="SVGs/information-circle-outline.svg" alt="">
           <p>About us</p>
         </button>
         <button id="profile" class="nav-button">
-          <img src="" alt="">
+          <img class="nav-svg" src="SVGs/person-outline.svg" alt="">
           <p>Profile</p>
         </button>
       </nav>
@@ -55,28 +61,131 @@
 
          <div class="cards">
           <div class="cardx">
+            <div class="profimg" style="display: flex; justify-content: center; align-items: center;">
+              <img src="SVGs/person-circle-outline.svg" style="width: 10rem;" alt="">
+            </div>
                 <h5 class="profname">Principal - Prof. (Dr.) Sameru Sharma</h5>
                 <p class="profwords">Education plays a transformative role in shaping the world by fostering knowledge, skills, attitudes, and values essential for societal progress. It strengthens social cohesion and prepares individuals to be competent professionals and responsible citizens.</p>
                 <p class="profquote">"Education is not preparation for life; education is life itself." – John Dewey</p>
            </div>
            <div class="cardx">
+            <div class="profimg" style="display: flex; justify-content: center; align-items: center;">
+              <img src="SVGs/person-circle-outline.svg" style="width: 10rem;" alt="">
+            </div>
                 <h5 class="profname">Controller of Examinations - Prof. (Dr.) Simmi Dutta</h5>
-                <p class="profwords">Examinations play a crucial role in assessing academic progress, ensuring learning outcomes, and upholding the integrity of the education system. At GCET Jammu, we are committed to maintaining a fair, transparent, and efficient examination process that aligns with academic excellence and the evolving educational landscape.</p>
-                <p class="profquote">"Education is the best friend. An educated person is respected everywhere. Education beats the beauty and the youth." – Kautilya, Arthashastra</p>
+                <p class="profwords">Examinations play a crucial role in assessing academic progress, ensuring learning outcomes, and upholding the integrity of the education system. At GCET Jammu, we are committed to maintaining a fair, transparent, and efficient examination process.</p>
+                <p class="profquote">"Education is the best friend. An educated person is respected everywhere." – Kautilya, Arthashastra</p>
            </div>
            </div>
      </section>
      <section id="notificationsSection" class="notifications-container">
-<p>Notifications</p>
+      <div >
+       <h5>All Notifications</h5>
+       <p>Results, Admissions, Registration and Admit card related examination notices</p>
+      </div>
+
+            <div class="subcontainer3">
+         <div class="hdrs">
+           <p class="hdrstxt">TYPE</p>
+           <p class="hdrstxt">TITLE</p>
+           <p class="hdrstxt">DATE</p>
+         </div>
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">ADMISSION NOTICE FOR B.TECH. 7TH/5TH/3RD SEMESTERS (BATCHES 2022, 2023 & 2024)</p>
+          <p class="notifytxt">June 14, 2025</p>
+        </div>
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">B.TECH 2ND SEMESTER (REGULAR & REAPPEAR) ADMIT CARDS PUBLISHED !! DOWNLOAD NOW !!</p>
+          <p class="notifytxt">June 9, 2025</p>
+        </div>
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">B.TECH 4TH SEMESTER (REGULAR & REAPPEAR) ADMIT CARDS PUBLISHED !! DOWNLOAD NOW !!</p>
+          <p class="notifytxt">June 02, 2025</p>
+        </div>
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">ADMIT CARDS OF BTECH 6TH SEMESTER ARE NOW AVAILABLE</p>
+          <p class="notifytxt">May 28, 2025</p>
+        </div>    
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">ADMIT CARDS OF BTECH 6TH SEMESTER ARE NOW AVAILABLE</p>
+          <p class="notifytxt">May 28, 2025</p>
+        </div>     
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">BACKLOG EXAM FORM – 4TH & 2ND SEM</p>
+          <p class="notifytxt">May 28, 2025</p>
+        </div>     
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">B.TECH 6TH SEMESTER (CBS REGULAR) EXAMINATIONS RESCHEDULED</p>
+          <p class="notifytxt">May 16, 2025</p>
+        </div>     
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">DATE SHEET OF B.TECH 2ND SEMESTER</p>
+          <p class="notifytxt">April 21, 2025</p>
+        </div>     
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">DATE SHEET OF B.TECH 4TH SEMESTER</p>
+          <p class="notifytxt">April 21, 2025</p>
+        </div>    
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">DATESHEET OF B.TECH 6TH SEMESTER</p>
+          <p class="notifytxt">April 21, 2025</p>
+        </div>  
+        <div class="notifyinfo">
+          <p class="notifytxt">PDF</p>
+          <p class="notifytxt">CONFERMENT OF AUTONOMOUS STATUS TO GCET JAMMU</p>
+          <p class="notifytxt">April 17, 2025</p>
+        </div>                   
+  
+       </div>  
+
+
      </section>
-          <section id="noticeBoardSection" class="notifications-container">
-<p>Notice Board</p>
+     <section id="noticeBoardSection" class="notifications-container">
+       <div class="event-card">
+        <h4>GCET organized induction for the batch of 2025</h4>
+        <div class="photo-gallery">
+          <img src="SVGs/WhatsApp Image 2025-11-11 at 10.25.05_4231981e.jpg" alt="">
+          <img src="SVGs/WhatsApp Image 2025-11-11 at 10.25.11_e83b4ac1.jpg" alt="">
+          <img src="SVGs/WhatsApp Image 2025-11-11 at 10.25.17_81ff2519.jpg" alt="">
+          <img src="SVGs/WhatsApp Image 2025-11-11 at 10.25.34_c605b1e8.jpg" alt="">
+        </div>
+       </div>
      </section>
-          <section id="aboutUsSection" class="notifications-container">
-<p>Abput us</p>
+     <section id="aboutUsSection" class="aboutUs-container">
+       <div class="courses-offered">
+        <h5>Undergraduate Courses</h5>
+        <p>GCET Jammu offere Bachelor of Engineering(B.Tech) degrees in the following disciplines:</p>
+        <p>1.Computer Engineering</p>
+        <p>2.Mechanincal Engineering</p>
+        <p>3.Civil Engineering</p>
+        <p>4.Electronics and Communication Engineering</p>
+        <p>5.Electrical Engineering</p>
+
+        <h5>Postgraduate Courses</h5>
+        <p>GCET Jammu offers M.Tech programs in:</p>
+        <p>1.Mechanincal Engineering</p>
+        <p>2.Computer Engineering</p>
+        <p>3.Electronics and Communication Engineering</p>
+        <p>Candidates must have a B.E/B.tech degree with atleast 60% marks and a valid GATE Score</p>
+
+       </div>
+       <!-- <div class="admission-process">
+        <h5>ADMISSION</h5>
+        <p>Admissions are based on the Common Entrance Test (JKCET) conducted by the Jammu and Kashmir Board of Professional Entrance Examinations (BOPEE). Candidates must have completed 10+2 with Physics, Chemistry, Mathematics, and English, securing at least 50% marks (40% for SC/ST categories).</p>
+       </div> -->
      </section>
-          <section id="profileSection" class="notifications-container">
-<p>Profile</p>
+     <section id="profileSection" class="profile-container">
+            
      </section>
     </section>
 
