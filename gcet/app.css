@@ -170,6 +170,75 @@ ul {
 span {
     display: inline-block;
 }
+
+/* Login page is desgined from hbere onwards */
+.login-container{
+    max-width: 1250px;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.login-section-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section-2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  width: 396px;
+}
+
+.login-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #dadde1;
+  padding: 10px;
+  
+}
+.login-button{
+  display: inline-block;
+  width: 366px;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: var(--primary-shade);
+ border-radius: 15px;
+}
+
+.login-pwd-button{
+  color: #0866FF;
+}
+
+.ca1{
+    display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: var(--primary-shade);
+ border-radius: 15px;
+}
+input{
+  padding: 10px;
+font-size: var(--text-paragraph);
+color:var(--grey-shade);
+width: 370px;
+border: 1.5px solid  #dadde1;
+border-radius: 6px;
+}
+
 /* MAIN WEBSITE STARTS FROM HERE ABOVE ALL ARE CSS RESETS AND DEFAULT BEHAVIOURS */
 
 .navbar1{
@@ -177,11 +246,15 @@ span {
     justify-content: space-between;
 }
 
+.minicontainer1{
+  display: flex;
+}
+
 .login-btn{
     display: inline-block;
     font-size: var(--text-base);
     padding: 1.5rem 3rem;
-    border-radius: 8px;
+    border-radius: 15px;
     color: var(--white);
     background-color: var(--secondary-shade);
     border: 2px solid var(--secondary-shade);
@@ -195,6 +268,7 @@ span {
     transform: scale(1.05, 1.05);
     box-shadow: 0px 3px 6px var(--grey-base);
 }
+
 
 /* MAIN-SECTION CONTAINER IS THIS FROM HERE THE MAIN CONTECT SHOW STARTS */
 .section-container{
@@ -216,6 +290,7 @@ span {
 .nav-button{
     padding: 15px;
     display: flex;
+    gap: 5px;
     align-items: center;
     border: none;
     border-radius: 15px;
@@ -223,8 +298,12 @@ span {
     color: var(--grey-shade);
     background:var(--white);
 }
+
+.nav-svg{
+    width: 2rem;
+}
 /* THE MAIN CONTENT SECTION IS DESGINED FROM HERE ONWARDS */
-.home-container{
+.home-container,.notifications-container{
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -264,12 +343,86 @@ max-width: 450px;
 width: 90%;
 }
 
-/* From here we start coding and designing the notifications container */
-.notifications-container{
+/* From here we start coding and designing the notifications container  */
+
+.subcontainer3{
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 15px;
+
+}
+
+.notifyinfo{
+  padding: 1.4rem;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 0.25fr 1.5fr 0.25fr;
+
+}
+
+.notifytxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px black solid; */
+  font-size: 1.2rem;
+  font-family: var(--font2);
+  font-weight: 550;
+  text-align: center;
+  color: var(--secondary-base);
+}
+
+.notifyinfo:hover{ 
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+} 
+
+.hdrs{
+  
+  display: grid;
+  grid-template-columns: 0.25fr 1.5fr 0.25fr;
+  text-align: center;
+}
+
+.hdrstxt{
+  /* border: 1px black solid; */
+  font-size: 1.6rem;
+  font-family: var(--font1);
+  font-weight: 900;
+  color: var(--grey-base);
+}
+
+/* From here we start coding and designing the  container  */
+.event-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+
+.photo-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.photo-gallery img{
+    max-width: 33rem;
+    width: 100%;
+    border-radius: 15px;
+}
+/* From here we start coding and designing the About us container  */
+.aboutUs-container{
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     margin: 0 auto;
 }
